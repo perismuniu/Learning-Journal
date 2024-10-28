@@ -87,6 +87,67 @@ main {
     padding-top: 15em;
 }
 
+/* blog section */
+
+/* CSS for blog section grid */
+.blog-section {
+    width: 309px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5em;
+    padding: 1em;
+    margin: auto;
+    width: 100%;
+    box-sizing: border-box ;
+}
+
+.blog {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1em 1em;
+}
+
+.blog img {
+    width: 309px;
+    height: 232px;
+    border-radius: 5px;
+}
+
+.blog p, .blog h2 {
+    margin: 0.5em 0;
+    width: 309px;
+}
+
+.blog p {
+    font-size: 0.875rem;
+}
+
+.blog h2 {
+    font-size: 1.5rem;
+    color: #141414;
+}
+
+.view-more {
+    text-align: center;
+    margin: 0.5em auto 2em;
+    font-weight: bold;
+    font-size: 0.875rem;
+    color: #000000 !important;
+    text-decoration: none;
+}
+
+.view-more:hover {
+    color: grey;
+}
+
+.view-more:visited {
+    color: #000000; 
+}
+
+
 /* Footer section */
 
 footer {
