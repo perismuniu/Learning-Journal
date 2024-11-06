@@ -108,6 +108,7 @@ main {
     padding: 1em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 1em 1em;
+    cursor: pointer;
 }
 
 .blog img {
@@ -147,6 +148,12 @@ main {
     color: #000000; 
 }
 
+/* Modal div */
+
+.modal {
+    display: none;
+}
+
 
 /* Footer section */
 
@@ -168,4 +175,37 @@ footer {
 .copyright {
     font-size: 1rem;
     font-weight:600;
+}
+
+/* Blog.html */
+
+.blog-main,
+.blog-hero-section {
+    max-width: 980px;
+    margin: 1em auto;
+}
+
+.blog-main-image {
+    width: 980px;
+    height: 488px;
+}
+
+.blog-hero-date,
+.blog-hero-introduction {
+    font-size: 1rem;
+}
+
+.blog-hero-title {
+    font-size: 2.25rem;
+}
+
+.blog-hero-date,
+.blog-hero-title,
+.blog-hero-introduction,
+.blog-main-image {
+    margin-top: 1em;
+}
+
+.recent-post-title {
+    text-align: center;
 }
