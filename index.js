@@ -103,4 +103,6 @@ if (document.getElementById('blog-section')) {
     // We're on blog.html
     displayFullBlogPost()
     renderRecentPosts()
+} else if (document.getElementById('recent-posts-container')) {
+    renderRecentPosts()
 }

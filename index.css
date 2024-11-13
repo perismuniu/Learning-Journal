@@ -232,7 +232,7 @@ footer {
     border-radius: 8px;
     padding: 1em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 1em auto;
+    margin: 1.5em auto;
     cursor: pointer;
     width: 300px;
 }
@@ -258,3 +258,52 @@ footer {
     color: #141414;
 }
 
+/* aboutme.html */
+
+.aboutme-main{
+    max-width: 980px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.aboutme-image {
+    border-radius: 50%;
+    width: 182px;
+    height: 182px;
+}
+
+.aboutme-introduction-section {
+    display: flex;
+    max-height: 182px;
+    justify-content: space-between;
+}
+
+.aboutme-introduction {
+    width: 750px;
+    line-height: 1; 
+    margin-top: 2em;
+}
+
+.aboutme-introduction h1 {
+    font-size: 2.25rem;
+}
+
+.aboutme-introduction p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1em;
+}
+
+.aboutme-introduction-section {
+    margin-bottom: 3em;
+}
+
+.aboutme-middle-section p {
+    padding: 1em 0;
+}
+
+.aboutme-middle-section {
+    line-height: 1.5;
+    margin: 0 auto;
+    padding-left: 5em;
+}
