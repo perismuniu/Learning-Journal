@@ -211,6 +211,50 @@ footer {
     margin-top: 1em;
 }
 
+.blog-post-date {
+    margin: 2em 0 ;
+}
+
 .recent-post-title {
     text-align: center;
+    margin-top: 2em;
 }
+
+#recent-posts-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.recent-blog {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1em auto;
+    cursor: pointer;
+    width: 300px;
+}
+
+
+.recent-blog img {
+    width: 250px;
+    height: 232px;
+    border-radius: 5px;
+}
+
+.recent-blog p, .blog h2 {
+    margin: 0.5em 0;
+    width: 250px;
+}
+
+.recent-blog p {
+    font-size: 0.875rem;
+}
+
+.recent-blog h2 {
+    font-size: 1.5rem;
+    color: #141414;
+}
+
